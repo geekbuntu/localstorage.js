@@ -18,7 +18,7 @@ var ls = {
 	delete: function(name){
 		return localStorage.removeItem(name);
 	},
-	clear: function {
+	clear: function() {
 		return localStorage.clear();
 	}
 };
